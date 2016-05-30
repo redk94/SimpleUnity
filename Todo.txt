@@ -1,0 +1,4 @@
+1. Simple DI example - Done
+2. I can created mapping at run time
+3. I can change mapping at run time based on condition
+4. I can handle lifetime management

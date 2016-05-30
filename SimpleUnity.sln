@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnityDemo", "SimpleUnityDemo\SimpleUnityDemo.csproj", "{84AA189F-901A-4A62-B46B-AB083497EE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Domain.Services", "SimpleUnity.Domain\SimpleUnity.Domain.Services.csproj", "{5174D735-A5D6-4CC2-987C-650F3EF3EAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Domain.Services.Interface", "SimpleUnity.Domain.Services.Interface\SimpleUnity.Domain.Services.Interface.csproj", "{1771EE55-1C8F-4AD5-A031-00C86E0D665C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SImpleUnity.Repository", "SImpleUnity.Repository\SImpleUnity.Repository.csproj", "{494529B6-D880-49F3-A23A-551BE6667EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Repo.Impl.Sql", "SimpleUnity.Repo.Impl.Sql\SimpleUnity.Repo.Impl.Sql.csproj", "{114C6B07-AE9C-45E2-A070-39F2EDF08ED0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{5BD8A02C-DE81-482D-91E9-FA0FACEA8360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Repo.Impl.Swift", "SimpleUnity.Repo.Impl.Swift\SimpleUnity.Repo.Impl.Swift.csproj", "{5B8FF857-8B28-4506-8290-11C9645137D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Repo.Impl.Isilon", "SimpleUnity.Repo.Impl.Isilon\SimpleUnity.Repo.Impl.Isilon.csproj", "{0CA4CAEB-AD5B-4425-80A3-8D67C0748C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Client", "SimpleUnity.Client\SimpleUnity.Client.csproj", "{DAB67210-7F9A-4D16-A37B-1E2F1D6AE31F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C097FF6-45AE-4D27-A7E4-C0AD4A972319}"
+	ProjectSection(SolutionItems) = preProject
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.Testing", "SimpleUnity.Testing\SimpleUnity.Testing.csproj", "{235080A6-92C1-4457-99BA-E8199C0A8627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnity.PerformanceTuning", "SimpleUnity.PerformanceTuning\SimpleUnity.PerformanceTuning.csproj", "{55DB98AD-FD93-45FB-8839-E36B4F3A7393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84AA189F-901A-4A62-B46B-AB083497EE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AA189F-901A-4A62-B46B-AB083497EE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AA189F-901A-4A62-B46B-AB083497EE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AA189F-901A-4A62-B46B-AB083497EE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5174D735-A5D6-4CC2-987C-650F3EF3EAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5174D735-A5D6-4CC2-987C-650F3EF3EAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5174D735-A5D6-4CC2-987C-650F3EF3EAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5174D735-A5D6-4CC2-987C-650F3EF3EAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1771EE55-1C8F-4AD5-A031-00C86E0D665C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1771EE55-1C8F-4AD5-A031-00C86E0D665C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1771EE55-1C8F-4AD5-A031-00C86E0D665C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1771EE55-1C8F-4AD5-A031-00C86E0D665C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494529B6-D880-49F3-A23A-551BE6667EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494529B6-D880-49F3-A23A-551BE6667EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494529B6-D880-49F3-A23A-551BE6667EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494529B6-D880-49F3-A23A-551BE6667EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114C6B07-AE9C-45E2-A070-39F2EDF08ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114C6B07-AE9C-45E2-A070-39F2EDF08ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114C6B07-AE9C-45E2-A070-39F2EDF08ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114C6B07-AE9C-45E2-A070-39F2EDF08ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8FF857-8B28-4506-8290-11C9645137D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8FF857-8B28-4506-8290-11C9645137D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8FF857-8B28-4506-8290-11C9645137D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8FF857-8B28-4506-8290-11C9645137D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA4CAEB-AD5B-4425-80A3-8D67C0748C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA4CAEB-AD5B-4425-80A3-8D67C0748C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA4CAEB-AD5B-4425-80A3-8D67C0748C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA4CAEB-AD5B-4425-80A3-8D67C0748C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB67210-7F9A-4D16-A37B-1E2F1D6AE31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB67210-7F9A-4D16-A37B-1E2F1D6AE31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB67210-7F9A-4D16-A37B-1E2F1D6AE31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB67210-7F9A-4D16-A37B-1E2F1D6AE31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235080A6-92C1-4457-99BA-E8199C0A8627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235080A6-92C1-4457-99BA-E8199C0A8627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235080A6-92C1-4457-99BA-E8199C0A8627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235080A6-92C1-4457-99BA-E8199C0A8627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DB98AD-FD93-45FB-8839-E36B4F3A7393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DB98AD-FD93-45FB-8839-E36B4F3A7393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DB98AD-FD93-45FB-8839-E36B4F3A7393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DB98AD-FD93-45FB-8839-E36B4F3A7393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84AA189F-901A-4A62-B46B-AB083497EE43} = {5BD8A02C-DE81-482D-91E9-FA0FACEA8360}
+	EndGlobalSection
+EndGlobal
