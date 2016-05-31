@@ -109,9 +109,9 @@
       <Project>{5b8ff857-8b28-4506-8290-11c9645137d9}</Project>
       <Name>SimpleUnity.Repo.Impl.Swift</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SImpleUnity.Repository\SImpleUnity.Repository.csproj">
+    <ProjectReference Include="..\SImpleUnity.Repository\SimpleUnity.Repository.csproj">
       <Project>{494529b6-d880-49f3-a23a-551be6667ef4}</Project>
-      <Name>SImpleUnity.Repository</Name>
+      <Name>SimpleUnity.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -1,4 +1,4 @@
-﻿using SImpleUnity.Repository;
+﻿using SimpleUnity.Repository;
 using System;
 
 namespace SimpleUnity.Repo.Impl.Sql

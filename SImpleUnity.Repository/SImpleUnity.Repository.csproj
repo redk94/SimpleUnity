@@ -7,8 +7,8 @@
     <ProjectGuid>{494529B6-D880-49F3-A23A-551BE6667EF4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SImpleUnity.Repository</RootNamespace>
-    <AssemblyName>SImpleUnity.Repository</AssemblyName>
+    <RootNamespace>SimpleUnity.Repository</RootNamespace>
+    <AssemblyName>SimpleUnity.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

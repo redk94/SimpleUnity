@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SImpleUnity.Repository
+namespace SimpleUnity.Repository
 {
     public interface IBlobRepository
     {

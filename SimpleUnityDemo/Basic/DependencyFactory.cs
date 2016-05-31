@@ -1,6 +1,7 @@
 ﻿using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
 using System;
+using System.Collections.Generic;
 using System.Configuration;
 
 namespace SimpleUnityDemo
@@ -49,6 +50,11 @@ namespace SimpleUnityDemo
             }
 
             return ret;
+        }
+        public static IEnumerable<T> ResolveAll<T>()
+        {
+         
+            return Container.ResolveAll<T>();
         }
 
     }

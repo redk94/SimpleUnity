@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleUnity.Domain.Services.Interface
 {
-    interface IStorageService
+    public interface IStorageService
     {
         void AddBlob();
 

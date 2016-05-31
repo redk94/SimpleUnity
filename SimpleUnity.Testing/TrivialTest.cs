@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.Practices.Unity;
 using SimpleUnity.Domain.Services.Interface;
-using SImpleUnity.Repository;
+using SimpleUnity.Repository;
 
 namespace SimpleUnity.Testing
 {

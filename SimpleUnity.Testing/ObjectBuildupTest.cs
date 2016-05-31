@@ -5,7 +5,7 @@ using Microsoft.Practices.Unity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SimpleUnity.Domain.Services.Interface;
 using SimpleUnity.Repo.Impl.Isilon;
-using SImpleUnity.Repository;
+using SimpleUnity.Repository;
 using SimpleUnity.Domain.Services;
 
 namespace SimpleUnity.Testing

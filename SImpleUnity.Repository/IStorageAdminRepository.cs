@@ -1,4 +1,4 @@
-﻿namespace SImpleUnity.Repository
+﻿namespace SimpleUnity.Repository
 {
     public interface IStorageAdminRepository
     {

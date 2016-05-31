@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestUnity.cs" />
     <Compile Include="UnityActivator.cs" />
     <Compile Include="UnityConfig.cs" />
   </ItemGroup>
@@ -76,6 +77,10 @@
     <ProjectReference Include="..\SimpleUnity.Repo.Impl.Isilon\SimpleUnity.Repo.Impl.Isilon.csproj">
       <Project>{0ca4caeb-ad5b-4425-80a3-8d67c0748c25}</Project>
       <Name>SimpleUnity.Repo.Impl.Isilon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SImpleUnity.Repository\SimpleUnity.Repository.csproj">
+      <Project>{494529B6-D880-49F3-A23A-551BE6667EF4}</Project>
+      <Name>SimpleUnity.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

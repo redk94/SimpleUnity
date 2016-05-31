@@ -1,35 +1,41 @@
 ﻿using System;
 using SimpleUnity.Domain.Services.Interface;
-using SImpleUnity.Repository;
+using SimpleUnity.Repository;
 
 namespace SimpleUnity.Domain.Services
 {
     public class AdminServices : IAdminService
     {
-        private readonly IBlobRepository BlobRepository;
-        private readonly IBucketRepository BucketRepository;
-        private readonly IStorageAdminRepository StorageAdminRepository;
+        private readonly IBlobRepository _blobRepository;
+        private readonly IBucketRepository _bucketRepository;
+        private readonly IStorageAdminRepository _storageAdminRepository;
 
-        public AdminServices(IBlobRepository blobRepository, IBucketRepository bucketRepository, IStorageAdminRepository storageAdminRepository)
+        //public AdminServices(IBucketRepository bucketRepository, IBlobRepository blobRepository, IStorageAdminRepository storageAdminRepository )
+        //{
+        //    _bucketRepository = bucketRepository;
+        //    _blobRepository = blobRepository;
+        //    _storageAdminRepository = storageAdminRepository;
+        //}
+
+        public AdminServices(IBucketRepository bucketRepository)
         {
-            this.BlobRepository = blobRepository;
-            this.BucketRepository = bucketRepository;
-            this.StorageAdminRepository = storageAdminRepository;
+            _bucketRepository = bucketRepository;
         }
+
 
         public void AddAccount()
         {
-            StorageAdminRepository.AddAccount();
+            _storageAdminRepository.AddAccount();
         }
 
         public void AddBlob()
         {
-            BlobRepository.Add();
+            _blobRepository.Add();
         }
 
         public void AddBucket()
         {
-            BucketRepository.Add();
+            _bucketRepository.Add();
         }
     }
 }

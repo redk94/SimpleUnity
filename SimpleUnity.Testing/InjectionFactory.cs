@@ -21,8 +21,8 @@ namespace SimpleUnity.Testing
         {
             using (var container = new UnityContainer())
             {
-                container.RegisterType<ILocalService, ConcreteService>(
-                    new InjectionFactory(c => ServiceFactory()));
+                //container.RegisterType<ILocalService, ConcreteService>(
+                //    new InjectionFactory(c => ServiceFactory()));
 
                 Model model = container.Resolve<Model>();
 

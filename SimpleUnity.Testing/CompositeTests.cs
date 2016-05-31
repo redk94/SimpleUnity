@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.Practices.Unity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SImpleUnity.Repository;
+using SimpleUnity.Repository;
 
 namespace SimpleUnity.Testing
 {

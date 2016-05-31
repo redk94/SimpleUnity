@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.Practices.Unity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SimpleUnity.Domain.Services.Interface;
-using SImpleUnity.Repository;
+using SimpleUnity.Repository;
 
 namespace SimpleUnity.Testing
 {

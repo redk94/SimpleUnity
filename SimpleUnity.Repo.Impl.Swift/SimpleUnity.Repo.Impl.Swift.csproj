@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\SimpleUnityDemo\bin\Debug\</OutputPath>
+    <OutputPath>..\SimpleUnity.WebApi\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SImpleUnity.Repository\SImpleUnity.Repository.csproj">
+    <ProjectReference Include="..\SImpleUnity.Repository\SimpleUnity.Repository.csproj">
       <Project>{494529B6-D880-49F3-A23A-551BE6667EF4}</Project>
-      <Name>SImpleUnity.Repository</Name>
+      <Name>SimpleUnity.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
